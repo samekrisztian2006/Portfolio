@@ -1,4 +1,4 @@
-﻿/*float szam = float.Parse(Console.ReadLine());
+﻿float szam = float.Parse(Console.ReadLine());
 
 if (szam >= 50)
 {
@@ -6,8 +6,8 @@ if (szam >= 50)
 }else
 {
     Console.WriteLine(" Nem nagyobb a szám mint 50-ven");
-}*/
-/*
+}
+
 char ch = Console.ReadKey().KeyChar; 
 
 
@@ -23,8 +23,8 @@ else
 {
     Console.WriteLine("Más");
 }
-*/
-/*float szam = float.Parse(Console.ReadLine());
+
+float szam = float.Parse(Console.ReadLine());
 float szam2 = float.Parse(Console.ReadLine());
 
 if (szam > szam2)
@@ -39,8 +39,8 @@ else if (szam2 == szam)
 {
     Console.WriteLine($"Engyelők.");
 }
-*/
-/*float szam = float.Parse(Console.ReadLine());
+
+float szam = float.Parse(Console.ReadLine());
 
 if (szam < 18)
 {
@@ -48,9 +48,9 @@ if (szam < 18)
 }else
 {
     Console.WriteLine("18 vagy idősebb");
-}*/
+}
 
-/*float szam = float.Parse(Console.ReadLine());
+float szam = float.Parse(Console.ReadLine());
 
 switch (szam)
 {
@@ -88,8 +88,8 @@ switch (szam)
     default:
         Console.WriteLine("Nem szám");
         break;
-}*/
-/*Console.WriteLine("Add meg a jelszót:");
+}
+Console.WriteLine("Add meg a jelszót:");
 string jelszo = Console.ReadLine();
 
 if (jelszo == "titok")
@@ -98,8 +98,8 @@ if (jelszo == "titok")
 }else
 {
     Console.WriteLine("Hozzáférés megtagadva!");
-}*/
-/*float szam = float.Parse(Console.ReadLine());
+}
+float szam = float.Parse(Console.ReadLine());
 
 switch (szam)
 {
@@ -118,8 +118,8 @@ switch (szam)
     case 5:
         Console.WriteLine("ötös");
         break;
-}*/
-/*Console.Write("Kérem a hónap nevét (pl. január): ");
+}
+Console.Write("Kérem a hónap nevét (pl. január): ");
 string honap = Console.ReadLine().ToLower();
 
 switch (honap)
@@ -149,8 +149,8 @@ switch (honap)
     default:
         Console.WriteLine("Ismeretlen hónap név.");
         break;
-}*/
-/*int szam = int.Parse(Console.ReadLine());
+}
+int szam = int.Parse(Console.ReadLine());
 
 string sz = szam.ToString();
 int szamjegy = sz.Length;
@@ -162,7 +162,7 @@ else
 {
     Console.WriteLine("Nem négyjegyü");
 }
-*/
+
 string szoveg = Console.ReadLine();
 
 if (szoveg.Contains("a"))
@@ -186,4 +186,5 @@ else if (szoveg.Contains("u"))
 else
 {
     Console.WriteLine("Mássalgangó vagy ismeretlen karakter");
+
 }
